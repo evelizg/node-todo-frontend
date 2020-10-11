@@ -4,7 +4,7 @@ node {
 
     env.AWS_ECR_LOGIN=true
     def newApp
-    def registry = 'eveliz/retoibm'
+    def registry = 'eveliz/docker-test'
     def registryCredential = 'dockerhub'
 	
 	stage('Git') {
