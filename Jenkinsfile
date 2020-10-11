@@ -5,7 +5,7 @@ node {
     env.AWS_ECR_LOGIN=true
     def newApp
     def registry = 'eveliz/docker-test'
-    def registryCredential = 'dockerhub'
+    def registryCredential = 'eveliz'
 	
 	stage('Git') {
 		git 'https://github.com/evelizg/node-todo-frontend.git'
